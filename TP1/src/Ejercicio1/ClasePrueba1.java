@@ -7,6 +7,6 @@ package Ejercicio1;
 public class ClasePrueba1 {
 
     public boolean metodoDePrueba(){
-        return false;
+        return true;
     }
 }
