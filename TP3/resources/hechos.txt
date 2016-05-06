@@ -1,0 +1,8 @@
+padre(Juan, Mariano)
+padre(Juan, Matías)
+padre(Mariano, Ana)
+padre(Mario, Mariela)
+madre(Maria, Matías)
+madre(Ana, Federico)
+madre(Juana, Adrian)
+padre(Federico, José)
