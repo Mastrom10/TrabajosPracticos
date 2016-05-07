@@ -1,8 +1,8 @@
 # TrabajoPracticoJAVA - TP3: Algoritmos III
 
-*Ejercicios Obligatorios: todos (excepto el de fibonnacci) - (elegir entre el 5 y el 6)
+* Ejercicios Obligatorios: todos (excepto el de fibonnacci) - (elegir entre el 5 y el 6) *
 
-* Sugerencia:  Previo a comenzar el desarrollo, investigue los métodos provistos por la clase String.
+* Sugerencia:  Previo a comenzar el desarrollo, investigue los métodos provistos por la clase String. *
 
 ##Ejercicio 1 - Expresión aritmética
 
@@ -45,11 +45,9 @@ No necesita desarrollar test para este ejercicio, se opera desde la consola.
 
 Desarrolle una clase Verificadora que permita realizar las siguientes validaciones para un String dado:
 
-●	Un String representa un número de teléfono de Argentina.
-
-●	Un String es una dirección de mail
-
-●	Un String representa una fecha en el formato dd/mm/aaaa
+* Un String representa un número de teléfono de Argentina.
+* Un String es una dirección de mail
+* Un String representa una fecha en el formato dd/mm/aaaa
 
 Cada uno es un método diferente y debe utilizar expresiones regulares de Java.
 
