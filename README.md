@@ -44,9 +44,13 @@ No necesita desarrollar test para este ejercicio, se opera desde la consola.
 ## Ejercicio 3 - Expresiones regulares en Java
 
 Desarrolle una clase Verificadora que permita realizar las siguientes validaciones para un String dado:
+
 ●	Un String representa un número de teléfono de Argentina.
+
 ●	Un String es una dirección de mail
+
 ●	Un String representa una fecha en el formato dd/mm/aaaa
+
 Cada uno es un método diferente y debe utilizar expresiones regulares de Java.
 
 
