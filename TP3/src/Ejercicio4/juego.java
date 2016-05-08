@@ -16,12 +16,11 @@ public class Juego {
         IniciarJuego();
 
 
-
         String Letra = sc.nextLine();
         System.out.println(Letra);
     }
 
-    private static void IniciarJuego(){
+    private static void IniciarJuego() {
         Palabra unapalabra = new Palabra();
 
         for (int i = 1; i < 6; i++) {
@@ -36,10 +35,10 @@ public class Juego {
             Scanner sc = new Scanner(System.in);
             String Letra = sc.nextLine();
 
-            if (unapalabra.verificarLetra(Letra.charAt(0))){
+            if (unapalabra.verificarLetra(Letra.charAt(0))) {
                 System.out.println("Muy bien! La Palabra tiene la letra " + Letra.charAt(0));
                 if (unapalabra.verificarPalabra()) {
-                    System.out.println("GANASTE! Adivinaste la palabra "+ unapalabra.laPalabra + " y tan solo cometiste "+ String.valueOf(i) +" errores.");
+                    System.out.println("GANASTE! Adivinaste la palabra " + unapalabra.laPalabra + " y tan solo cometiste " + String.valueOf(i) + " errores.");
                     return;
                 }
 
