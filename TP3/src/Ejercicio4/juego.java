@@ -14,10 +14,7 @@ public class Juego {
         Scanner sc = new Scanner(System.in);
         String _ = sc.nextLine();
         IniciarJuego();
-
-
-        String Letra = sc.nextLine();
-        System.out.println(Letra);
+        //ok
     }
 
     private static void IniciarJuego() {
