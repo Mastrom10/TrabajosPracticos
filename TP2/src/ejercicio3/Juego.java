@@ -69,7 +69,7 @@ public class Juego {
             System.out.println(aleatorio2);
         }
         else {
-            System.out.println("Has perdido PT");
+            System.out.println("Has perdido");
             System.out.println(aleatorio2);
         }
     }
