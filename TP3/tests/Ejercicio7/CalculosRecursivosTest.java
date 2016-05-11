@@ -1,11 +1,9 @@
-package Ejercicio7;
+package ejercicio7;
 
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by Nicolas on 08/05/2016.
