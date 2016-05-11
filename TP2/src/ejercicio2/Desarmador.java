@@ -7,12 +7,14 @@ import java.util.List;
  * Created by Matias Malerba on 09/05/2016.
  */
 public class Desarmador {
+
     public boolean esPar(int i){
 
         boolean esPar = i%2==0;
         return esPar;
 
     }
+
     public List<Integer> separarDigitos (int cifra){
         List <Integer> cifrasDesarmados = new ArrayList<>();
         cifrasDesarmados.add(cifra);
