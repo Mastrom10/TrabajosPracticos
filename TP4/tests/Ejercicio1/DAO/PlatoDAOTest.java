@@ -20,8 +20,9 @@ import static org.junit.Assert.*;
  * Created by nmastromarino on 11/05/2016.
  */
 public class PlatoDAOTest {
+
     @Before
-    public void setUp() throws Exception {
+    public void SetUp() throws Exception {
         try{
 
             File PathINfile = new File("resources/db");
@@ -44,11 +45,6 @@ public class PlatoDAOTest {
         }
     }
 
-    @After
-    public void tearDown() throws Exception {
-
-    }
-
     @Test
     public void cargarMilanga() throws Exception {
         Ingrediente ing1 = new Ingrediente("Carne Para Milanesa", "Carne");
@@ -58,10 +54,41 @@ public class PlatoDAOTest {
         ingS.add(ing1);
         ingS.add(ing2);
         ingS.add(ing3);
-        Plato p = new Plato("Milanesa con Papas Fritas", ingS, 10f);
+        Plato p = new Plato("Milanesa con Papas Fritas", ingS, 70f);
 
         boolean b = PlatoDAO.altaPlato(p);
         Assert.assertTrue(b);
     }
+
+    @Test
+    public void cargareNSALADAmIXTA() throws Exception {
+        Ingrediente ing1 = new Ingrediente("Lechuga", "Verdura");
+        Ingrediente ing2 = new Ingrediente("Tomate", "Verdura");
+        Ingrediente ing3 = new Ingrediente("Cebolla", "Verdura");
+        ArrayList<Ingrediente> ingS = new ArrayList<>();
+        ingS.add(ing1);
+        ingS.add(ing2);
+        ingS.add(ing3);
+        Plato p = new Plato("Ensalada Mixta", ingS, 50f);
+
+        boolean b = PlatoDAO.altaPlato(p);
+        Assert.assertTrue(b);
+    }
+
+    @Test
+    public void CargarFidosConSalsa() throws Exception {
+        Ingrediente ing1 = new Ingrediente("Fideos", "Pasta");
+        Ingrediente ing2 = new Ingrediente("Salsa", "Otros");
+        Ingrediente ing3 = new Ingrediente("Queso Rallado", "Otros");
+        ArrayList<Ingrediente> ingS = new ArrayList<>();
+        ingS.add(ing1);
+        ingS.add(ing2);
+        ingS.add(ing3);
+        Plato p = new Plato("Fideos con Salsa", ingS, 70f);
+
+        boolean b = PlatoDAO.altaPlato(p);
+        Assert.assertTrue(b);
+    }
+
 
 }

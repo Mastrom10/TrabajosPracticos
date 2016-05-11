@@ -97,7 +97,17 @@ public class IngredientesDAOTest {
 
     @After
     public void tearDown() throws Exception {
+        try {
 
+            File PathINfile = new File("resources/db");
+            String PathIN = PathINfile.getAbsolutePath();
+            Connection con = DriverManager.getConnection("jdbc:h2:" + PathIN + ";AUTO_SERVER=TRUE");
+            Statement stmt = con.createStatement();
+            String q = "DELETE FROM INGREDIENTE";
+            stmt.executeUpdate(q);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
     }
 }

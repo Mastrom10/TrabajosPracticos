@@ -22,4 +22,13 @@ public class Bebida {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "Bebida{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", tamanio='" + tamanio + '\'' +
+                ", precio=" + precio +
+                '}';
+    }
 }

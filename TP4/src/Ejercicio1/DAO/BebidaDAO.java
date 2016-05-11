@@ -21,7 +21,7 @@ public class BebidaDAO {
 
             Statement stmt = con.createStatement();
 
-            String q = "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('"+bebida.nombre+"', '"+bebida.tamanio+"','"+bebida.precio+")";
+            String q = "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('" + bebida.nombre + "', '" + bebida.tamanio + "'," + bebida.precio + ")";
 
             int rs = stmt.executeUpdate(q);
 
@@ -44,7 +44,7 @@ public class BebidaDAO {
 
             Statement stmt = con.createStatement();
 
-            String q = "DELETE FROM BEBIDA WHERE NOMBRE = '"+bebida.nombre+"' AND TAMANIO ='"+bebida.tamanio+"'AND PRECIO = '"+bebida.precio+"";
+            String q = "DELETE FROM BEBIDA WHERE NOMBRE = '" + bebida.nombre + "' AND TAMANIO ='" + bebida.tamanio + "'AND PRECIO = " + bebida.precio + "";
 
             int rs = stmt.executeUpdate(q);
 

@@ -3662,3 +3662,319 @@ Caused by: org.h2.jdbc.JdbcSQLException: La conexión no fue cerrada por la apli
 The connection was not closed by the application and is garbage collected [90018-191]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
 	... 39 more
+2016-05-11 20:07:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:02 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron','40.0) [42000-191]
+2016-05-11 20:07:02 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3','40.0) [42000-191]
+2016-05-11 20:07:02 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3','30.0) [42000-191]
+2016-05-11 20:07:02 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:02 jdbc[9]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:02 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron','40.0) [42000-191]
+2016-05-11 20:07:02 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3','40.0) [42000-191]
+2016-05-11 20:07:02 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3','30.0) [42000-191]
+2016-05-11 20:07:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:02 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:02 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron','40.0) [42000-191]
+2016-05-11 20:07:02 jdbc[17]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3','40.0) [42000-191]
+2016-05-11 20:07:02 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3','30.0) [42000-191]
+2016-05-11 20:07:02 jdbc[19]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:02 jdbc[22]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:02 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron','40.0) [42000-191]
+2016-05-11 20:07:02 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3','40.0) [42000-191]
+2016-05-11 20:07:02 jdbc[25]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3','30.0) [42000-191]
+2016-05-11 20:07:02 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Heineken', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Heineken', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Heineken', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:02 jdbc[27]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua Saborizada', '600 cm3',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua Saborizada', '600 cm3',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua Saborizada', '600 cm3','40.0) [42000-191]
+2016-05-11 20:07:02 jdbc[28]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Rutini Malbec', 'Litro',[*]'450.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Rutini Malbec', 'Litro',[*]'450.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Rutini Malbec', 'Litro','450.0) [42000-191]
+2016-05-11 20:07:02 jdbc[31]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:02 jdbc[32]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron','40.0) [42000-191]
+2016-05-11 20:07:02 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3','40.0) [42000-191]
+2016-05-11 20:07:02 jdbc[34]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3','30.0) [42000-191]
+2016-05-11 20:07:02 jdbc[35]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Heineken', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Heineken', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Heineken', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:02 jdbc[36]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua Saborizada', '600 cm3',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua Saborizada', '600 cm3',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua Saborizada', '600 cm3','40.0) [42000-191]
+2016-05-11 20:07:02 jdbc[37]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Rutini Malbec', 'Litro',[*]'450.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Rutini Malbec', 'Litro',[*]'450.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Rutini Malbec', 'Litro','450.0) [42000-191]
+2016-05-11 20:07:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:47 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron','40.0) [42000-191]
+2016-05-11 20:07:47 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3','40.0) [42000-191]
+2016-05-11 20:07:47 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3','30.0) [42000-191]
+2016-05-11 20:07:47 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:47 jdbc[9]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:47 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron','40.0) [42000-191]
+2016-05-11 20:07:47 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3','40.0) [42000-191]
+2016-05-11 20:07:47 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3','30.0) [42000-191]
+2016-05-11 20:07:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:47 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:47 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron','40.0) [42000-191]
+2016-05-11 20:07:47 jdbc[17]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3','40.0) [42000-191]
+2016-05-11 20:07:47 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3','30.0) [42000-191]
+2016-05-11 20:07:47 jdbc[19]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:47 jdbc[22]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:47 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron','40.0) [42000-191]
+2016-05-11 20:07:47 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3','40.0) [42000-191]
+2016-05-11 20:07:47 jdbc[25]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3','30.0) [42000-191]
+2016-05-11 20:07:47 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Heineken', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Heineken', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Heineken', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:47 jdbc[27]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua Saborizada', '600 cm3',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua Saborizada', '600 cm3',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua Saborizada', '600 cm3','40.0) [42000-191]
+2016-05-11 20:07:47 jdbc[28]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Rutini Malbec', 'Litro',[*]'450.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Rutini Malbec', 'Litro',[*]'450.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Rutini Malbec', 'Litro','450.0) [42000-191]
+2016-05-11 20:07:47 jdbc[31]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:47 jdbc[32]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Stella Artois', 'Porron','40.0) [42000-191]
+2016-05-11 20:07:47 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Coca-Cola', '600 cm3','40.0) [42000-191]
+2016-05-11 20:07:47 jdbc[34]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3',[*]'30.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua sin gas', '500 cm3','30.0) [42000-191]
+2016-05-11 20:07:47 jdbc[35]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Heineken', 'Litro',[*]'80.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Heineken', 'Litro',[*]'80.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Heineken', 'Litro','80.0) [42000-191]
+2016-05-11 20:07:47 jdbc[36]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua Saborizada', '600 cm3',[*]'40.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua Saborizada', '600 cm3',[*]'40.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Agua Saborizada', '600 cm3','40.0) [42000-191]
+2016-05-11 20:07:47 jdbc[37]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Rutini Malbec', 'Litro',[*]'450.0)"
+Syntax error in SQL statement "INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Rutini Malbec', 'Litro',[*]'450.0)"; SQL statement:
+INSERT INTO BEBIDA (NOMBRE, TAMANIO, PRECIO) VALUES ('Rutini Malbec', 'Litro','450.0) [42000-191]
+2016-05-11 20:08:17 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "DELETE FROM BEBIDA WHERE NOMBRE = 'Stella Artois' AND TAMANIO ='Litro'AND PRECIO = [*]'80.0"
+Syntax error in SQL statement "DELETE FROM BEBIDA WHERE NOMBRE = 'Stella Artois' AND TAMANIO ='Litro'AND PRECIO = [*]'80.0"; SQL statement:
+DELETE FROM BEBIDA WHERE NOMBRE = 'Stella Artois' AND TAMANIO ='Litro'AND PRECIO = '80.0 [42000-191]
+2016-05-11 20:17:11 database: flush
+org.h2.message.DbException: Error General : "java.lang.IllegalStateException: The file is locked: nio:C:/Users/Nicolas/UAI/JAVA/TrabajosPracticos/TP4/resources/db.mv.db [1.4.191/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/Nicolas/UAI/JAVA/TrabajosPracticos/TP4/resources/db.mv.db [1.4.191/7]" [50000-191]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:295)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:94)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:373)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:356)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2888)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:154)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:99)
+	at org.h2.engine.Database.getPageStore(Database.java:2460)
+	at org.h2.engine.Database.open(Database.java:692)
+	at org.h2.engine.Database.openDatabase(Database.java:270)
+	at org.h2.engine.Database.<init>(Database.java:264)
+	at org.h2.engine.Engine.openSession(Engine.java:65)
+	at org.h2.engine.Engine.openSession(Engine.java:175)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:153)
+	at org.h2.engine.Engine.createSession(Engine.java:136)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:349)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:107)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:91)
+	at org.h2.Driver.connect(Driver.java:72)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:735)
+	at org.h2.server.web.WebApp.login(WebApp.java:955)
+	at org.h2.server.web.WebApp.process(WebApp.java:211)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:170)
+	at org.h2.server.web.WebThread.process(WebThread.java:133)
+	at org.h2.server.web.WebThread.run(WebThread.java:89)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.h2.jdbc.JdbcSQLException: Error General : "java.lang.IllegalStateException: The file is locked: nio:C:/Users/Nicolas/UAI/JAVA/TrabajosPracticos/TP4/resources/db.mv.db [1.4.191/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/Nicolas/UAI/JAVA/TrabajosPracticos/TP4/resources/db.mv.db [1.4.191/7]" [50000-191]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	... 28 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/Nicolas/UAI/JAVA/TrabajosPracticos/TP4/resources/db.mv.db [1.4.191/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:773)
+	at org.h2.mvstore.FileStore.open(FileStore.java:172)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:342)
+	... 23 more
+2016-05-11 20:17:16 database: flush
+org.h2.message.DbException: Error General : "java.lang.IllegalStateException: The file is locked: nio:C:/Users/Nicolas/UAI/JAVA/TrabajosPracticos/TP4/resources/db.mv.db [1.4.191/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/Nicolas/UAI/JAVA/TrabajosPracticos/TP4/resources/db.mv.db [1.4.191/7]" [50000-191]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:295)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:94)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:373)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:356)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2888)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:154)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:99)
+	at org.h2.engine.Database.getPageStore(Database.java:2460)
+	at org.h2.engine.Database.open(Database.java:692)
+	at org.h2.engine.Database.openDatabase(Database.java:270)
+	at org.h2.engine.Database.<init>(Database.java:264)
+	at org.h2.engine.Engine.openSession(Engine.java:65)
+	at org.h2.engine.Engine.openSession(Engine.java:175)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:153)
+	at org.h2.engine.Engine.createSession(Engine.java:136)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:349)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:107)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:91)
+	at org.h2.Driver.connect(Driver.java:72)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:735)
+	at org.h2.server.web.WebApp.login(WebApp.java:955)
+	at org.h2.server.web.WebApp.process(WebApp.java:211)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:170)
+	at org.h2.server.web.WebThread.process(WebThread.java:133)
+	at org.h2.server.web.WebThread.run(WebThread.java:89)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.h2.jdbc.JdbcSQLException: Error General : "java.lang.IllegalStateException: The file is locked: nio:C:/Users/Nicolas/UAI/JAVA/TrabajosPracticos/TP4/resources/db.mv.db [1.4.191/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:C:/Users/Nicolas/UAI/JAVA/TrabajosPracticos/TP4/resources/db.mv.db [1.4.191/7]" [50000-191]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	... 28 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/Nicolas/UAI/JAVA/TrabajosPracticos/TP4/resources/db.mv.db [1.4.191/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:773)
+	at org.h2.mvstore.FileStore.open(FileStore.java:172)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:342)
+	... 23 more
