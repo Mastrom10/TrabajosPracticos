@@ -1,0 +1,7 @@
+2, archivo2 lalala
+6, el Mejor archivo
+5, un archivo historico
+10, looop looop
+18, reeeee valor
+17, clave2 chuck
+19, 42

@@ -1,0 +1,7 @@
+2, valor1
+3, valorcualquiera
+5, recontracualquiera
+10, unvalor bien pio
+13, alto valor
+16, el revalue
+19, el rivaliu
