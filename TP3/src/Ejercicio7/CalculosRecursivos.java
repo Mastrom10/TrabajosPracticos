@@ -1,4 +1,4 @@
-package ejercicio7;
+package Ejercicio7;
 
 /**
  * Created by Nicolas on 08/05/2016.

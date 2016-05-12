@@ -86,7 +86,7 @@ public class PlatoDAOTest {
     }
 
     @Test
-    public void CargarFidosConSalsa() throws Exception {
+    public void cargarFidosConSalsa() throws Exception {
         Ingrediente ing1 = new Ingrediente("Fideos", "Pasta");
         Ingrediente ing2 = new Ingrediente("Salsa", "Otros");
         Ingrediente ing3 = new Ingrediente("Queso Rallado", "Otros");

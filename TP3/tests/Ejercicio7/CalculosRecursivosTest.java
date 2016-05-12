@@ -1,24 +1,21 @@
-package ejercicio7;
+package Ejercicio7;
 
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static com.sun.xml.internal.ws.dump.LoggingDumpTube.Position.After;
-import static com.sun.xml.internal.ws.dump.LoggingDumpTube.Position.Before;
+import static org.junit.Assert.*;
 
 /**
- * Created by Nicolas on 08/05/2016.
+ * Created by Nicolas on 11/05/2016.
  */
 public class CalculosRecursivosTest {
-
-
-    ejercicio7.CalculosRecursivos calculador;
+    CalculosRecursivos calculador;
 
     @Before
     public void setUp() throws Exception {
-        calculador = new ejercicio7.CalculosRecursivos();
+        calculador = new CalculosRecursivos();
     }
 
     @After
