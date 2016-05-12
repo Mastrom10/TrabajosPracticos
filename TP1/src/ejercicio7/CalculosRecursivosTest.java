@@ -5,17 +5,20 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import static com.sun.xml.internal.ws.dump.LoggingDumpTube.Position.After;
+import static com.sun.xml.internal.ws.dump.LoggingDumpTube.Position.Before;
+
 /**
  * Created by Nicolas on 08/05/2016.
  */
 public class CalculosRecursivosTest {
 
 
-    CalculosRecursivos calculador;
+    ejercicio7.CalculosRecursivos calculador;
 
     @Before
     public void setUp() throws Exception {
-        calculador = new CalculosRecursivos();
+        calculador = new ejercicio7.CalculosRecursivos();
     }
 
     @After

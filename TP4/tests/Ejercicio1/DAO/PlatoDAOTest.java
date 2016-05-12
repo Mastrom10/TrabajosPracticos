@@ -20,6 +20,12 @@ import static org.junit.Assert.*;
  * Created by nmastromarino on 11/05/2016.
  */
 public class PlatoDAOTest {
+    @Test
+    public void traerUnPlato() throws Exception {
+        cargarMilanga();
+        Plato unPlato = PlatoDAO.traerUnPlato("Milanesa con Papas Fritas");
+        Assert.assertNotNull("El objeto no existe", unPlato);
+    }
 
     @Before
     public void SetUp() throws Exception {
@@ -34,10 +40,14 @@ public class PlatoDAOTest {
 
             String q3 = "DELETE FROM PLATO_INGREDIENTE";
             int rs3 = stmt.executeUpdate(q3);
+            String q4 = "DELETE FROM PROMOCION";
+            int rs4 = stmt.executeUpdate(q4);
             String q = "DELETE FROM INGREDIENTE";
             int rs = stmt.executeUpdate(q);
             String q2 = "DELETE FROM PLATO";
             int rs2 = stmt.executeUpdate(q2);
+            String q5 = "DELETE FROM BEBIDA";
+            int rs5 = stmt.executeUpdate(q5);
 
 
         } catch (SQLException e) {

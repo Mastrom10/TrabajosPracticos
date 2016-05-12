@@ -148,4 +148,30 @@ public class IngredientesDAO {
         }
         return null;
     }
+
+    public static Ingrediente DevolverIngrediente(int ID) {
+        try {
+            File PathINfile = new File("resources/db");
+            String PathIN = PathINfile.getAbsolutePath();
+            Connection con = DriverManager.getConnection("jdbc:h2:" + PathIN + ";AUTO_SERVER=TRUE");
+            Statement stmt = con.createStatement();
+
+
+            String q = "SELECT * FROM INGREDIENTE WHERE ID = " + ID + "";
+
+            ResultSet rs = stmt.executeQuery(q);
+            Ingrediente ingred;
+            if (rs.next()) {
+                ingred = new Ingrediente(rs.getString("NOMBRE"), rs.getString("TIPO"), rs.getInt("ID"));
+            } else {
+                return null;
+            }
+
+            return ingred;
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 }

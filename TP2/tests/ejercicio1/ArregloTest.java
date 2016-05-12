@@ -20,7 +20,7 @@ public class ArregloTest {
         arrayPrueba.add(225);
         Arreglo unArreglo = new Arreglo();
         ArrayList<Integer> resultado = unArreglo.dosMasAltos(arrayPrueba);
-        Assert.assertEquals(new Integer(500), resultado.get(0));
+        Assert.assertEquals("error en los mas altos", new Integer(500), resultado.get(0));
         Assert.assertEquals(new Integer(225), resultado.get(1));
     }
 
