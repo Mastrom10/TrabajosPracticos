@@ -20,6 +20,7 @@ import static org.junit.Assert.*;
  * Created by nmastromarino on 11/05/2016.
  */
 public class PlatoDAOTest {
+
     @Test
     public void traerUnPlato() throws Exception {
         cargarMilanga();
