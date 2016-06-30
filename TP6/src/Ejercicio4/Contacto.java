@@ -1,16 +1,25 @@
 package Ejercicio4;
 
 /**
- * Created by nmastromarino on 24/06/2016.
+ * Created by nmastromarino on 30/06/2016.
  */
-public class Contacto{
+public class Contacto {
 
     private String nombre;
     private String apellido;
     private String telefono;
     private String mail;
 
+    public Contacto(String nombre, String apellido, String telefono, String mail) {
+
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.telefono = telefono;
+        this.mail = mail;
+    }
+
     public String getNombre() {
+
         return nombre;
     }
 
@@ -40,17 +49,6 @@ public class Contacto{
 
     public void setMail(String mail) {
         this.mail = mail;
-    }
-
-    public Contacto(String nombre, String apellido, String telefono, String mail) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.telefono = telefono;
-        this.mail = mail;
-    }
-
-    public Contacto Clone() {
-        return new Contacto(this.nombre, this.apellido, this.telefono, this.mail);
     }
 
     @Override
