@@ -26,6 +26,12 @@ public class Gen {
         this.ID = ID;
     }
 
+    public Gen(Gen gen) {
+       this.setID(gen.getID());
+        this.setLongitud(gen.getLongitud());
+        this.nucleotidos = new ArrayList<>();
+    }
+
     public Integer getID() {
         return ID;
     }
@@ -77,4 +83,6 @@ public class Gen {
         result = 31 * result + (nucleotidos != null ? nucleotidos.hashCode() : 0);
         return result;
     }
+
+
 }

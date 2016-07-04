@@ -12,10 +12,20 @@ public class GenomaHumano{
         private static GenomaHumano instance = null;
 
     public List<Gen> getModeloGenes() {
-        return modeloGenes;
+        return cloneList(modeloGenes);
     }
 
-    private List<Gen> modeloGenes;
+    public static List<Gen> cloneList(List<Gen> genList) {
+        List<Gen> clonedList = new ArrayList<>(genList.size());
+        for (Gen g : genList) {
+            clonedList.add(new Gen(g));
+        }
+        return clonedList;
+    }
+
+
+
+    private List<Gen> modeloGenes = new ArrayList<>();
 
 
         private GenomaHumano() {

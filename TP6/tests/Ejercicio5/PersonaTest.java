@@ -33,7 +33,12 @@ public class PersonaTest {
         List<Gen> genesResultado = p1.GenesIguales(p2);
         List<Gen> genesResultadoIguales = p1.GenesIguales(p1);
 
-        Assert.assertEquals(genesResultadoIguales.size(), 25000);
+        Assert.assertNotEquals(25000, genesResultado.size());
+        Assert.assertEquals(25000, genesResultadoIguales.size());
+
+        Assert.assertEquals(p1.getGenomaIndividuo().get(6114).getNucleotidos().size(), p2.getGenomaIndividuo().get(6114).getNucleotidos().size() );
+        Assert.assertEquals(p1.getGenomaIndividuo().get(6114).getLongitud(), p2.getGenomaIndividuo().get(6114).getLongitud());
+        Assert.assertEquals(p1.getGenomaIndividuo().get(6114).getID(), p2.getGenomaIndividuo().get(6114).getID());
 
     }
 
