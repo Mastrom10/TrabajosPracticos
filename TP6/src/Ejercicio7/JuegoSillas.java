@@ -1,9 +1,7 @@
 package Ejercicio7;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
-import java.io.Console;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -12,33 +10,45 @@ import java.util.Random;
  */
 public class JuegoSillas {
 
-    List<Silla> sillas;
-    List<Jugadores> jugadores;
+    private List<Silla> sillas;
+    private List<Jugador> jugadores;
 
-    public JuegoSillas(List<Jugadores> jugadores, Integer cantidadJugadores) {
-        this.sillas = new ArrayList<>(jugadores.size());
-        for (int i = 0; i < jugadores.size(); i++) {
+    public Jugador Jugar(List<Jugador> jugadores) {
+        this.sillas = null;
+        this.jugadores = null;
+        this.sillas = new ArrayList<>();
+        this.jugadores = jugadores;
+
+        for (int i = 0; i < this.jugadores.size(); i++) {
             this.sillas.add(new Silla());
         }
+
+        while (this.sillas.size() > 1) {
+            nuevaVuelta();
+        }
+        System.out.println("Al terminar el juego, ganó " + this.sillas.get(0).getJugador().getNombre());
+        return this.sillas.get(0).getJugador();
+
     }
 
-
-    public void Jugar(){
-
-
-    }
-
-    public void nuevaVuelta(){
+    private void nuevaVuelta() {
 
         this.sillas.remove(this.sillas.size()-1);
         EsperarTiempoRandom();
+        Collections.shuffle(jugadores);
 
+        for (int i = 0; i < this.sillas.size(); i++) {
+            this.sillas.get(i).setJugador(jugadores.get(i));
+        }
+
+        System.out.println("y cuando paró la musica perdío " + jugadores.get(this.sillas.size()).getNombre() + "\n");
+        jugadores.remove(this.sillas.size());
 
 
     }
 
-    Boolean EsperarTiempoRandom(){
-        System.out.println("Se esperaron: " + Integer.valueOf(randInt(1, 10)).toString()+ " Segundos");
+    private Boolean EsperarTiempoRandom() {
+        System.out.println("Se La musica sonó: " + Integer.valueOf(randInt(1, 10)).toString() + " Segundos");
         return true;
     }
 

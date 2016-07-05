@@ -5,14 +5,14 @@ package Ejercicio7;
  */
 public class Silla {
 
-    Jugadores jugadores;
+    Jugador jugador;
 
 
-    public Jugadores getJugadores() {
-        return jugadores;
+    public Jugador getJugador() {
+        return jugador;
     }
 
-    public void setJugadores(Jugadores jugadores) {
-        this.jugadores = jugadores;
+    public void setJugador(Jugador jugador) {
+        this.jugador = jugador;
     }
 }
