@@ -3,7 +3,7 @@ package Ejercicio6;
 /**
  * Created by Nicolas on 05/07/2016.
  */
-public enum TipoLocalidad {
+enum TipoLocalidad {
 
     Adelante(30f),
     Medio(15f),
