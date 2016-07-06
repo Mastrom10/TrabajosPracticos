@@ -12,29 +12,33 @@ import java.util.List;
  */
 public class CaretakerTest {
     Originator originator;
-    List<Originator.Memento> savedStates = new ArrayList<>();
+    Caretaker caretaker;
 
     @Before
     public void setUp() throws Exception{
         originator = new Originator();
+        caretaker = new Caretaker();
+
+        //Seteo tantos estados del objeto como quiera
+        originator.set("State 1");
+        originator.set("State 2");
+        //Guardo estados en la lista
+        caretaker.savedStates.add(originator.saveToMemento());
+        originator.set("State 3");
+        caretaker.savedStates.add(originator.saveToMemento());
+        originator.set("State 4");
+
     }
 
     @After
     public void tearDown() throws Exception{
         originator = null;
+        caretaker = null;
+
     }
 
     @Test
     public void caretaker() throws Exception {
-        originator.set("State 1");
-        savedStates.add(originator.saveToMemento());
-        originator.set("State 2");
-        savedStates.add(originator.saveToMemento());
-        originator.set("State 3");
-        savedStates.add(originator.saveToMemento());
-        originator.set("State 4");
-        savedStates.add(originator.saveToMemento());
-
-        originator.restoreFromMemento(savedStates.get(3));
+        originator.restoreFromMemento(caretaker.savedStates.get(1));
     }
 }
