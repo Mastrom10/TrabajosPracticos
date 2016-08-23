@@ -19,7 +19,7 @@ public class Originator {
 
     public void restoreFromMemento(Memento memento){
         this.state = memento.getSavedState();
-        System.out.println("Originator: State after restoring from Memento: " + state);
+        System.out.println("Ori-++ginator: State after restoring from Memento: " + state);
     }
 
     public static class Memento {
