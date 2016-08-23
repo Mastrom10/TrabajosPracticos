@@ -26,18 +26,18 @@
     * Segundo botón del mouse -> new directory y poner "test"
     * segundo botón del mouse sobre la carpeta "test" y seleccionar "mark directory as "test sources root"
 
-![Imagen Tres](https://github.com/Mastrom10/TrabajosPracticos/blob/master/ImagenesReadme/Imagen3.png "Optional Title")
+![Imagen Tres](https://github.com/Mastrom10/TrabajosPracticos/blob/master/ImagenesReadme/imagen3.png "Optional Title")
 
 * Para crear la clase de Test de una clase C1 siga los siguientes pasos
     * Posicione el cursor en el editor de la clase C1
     * Presione CTRL + SHIFT + T
     * En los radio button, seleccione Junit4 (la primera vez deberá presionar el botón FIX para que baje la librería)
-    * ![Imagen Cuatro](https://github.com/Mastrom10/TrabajosPracticos/blob/master/ImagenesReadme/Imagen4.png "Optional Title")
+    * ![Imagen Cuatro](https://github.com/Mastrom10/TrabajosPracticos/blob/master/ImagenesReadme/imagen4.png "Optional Title")
     * Seleccione los métodos de la clase para los cuales desea hacer test. Alcanza con que lo haga para el método principal que implementa la funcionalidad. Si desarrolló otros métodos para modularizar, no es obligatorio (aunque sugerido) que los testee.
     * Puede implementar más de un método test. Serán ejecutados todos los métodos que tengan la annotation @Test
     * Utilice los métodos estáticos de la clase Assert para agregar validaciones en su código. SI al correrlo hay alguna que da error, será informado claramente.
     * En el método setUp y tearDown puede escribir código. El método setUp se ejecutará antes de cada test y el tearDown luego de cada método marcado con el @Test test.
-    * ![Imagen Cinco](https://github.com/Mastrom10/TrabajosPracticos/blob/master/ImagenesReadme/Imagen5.png "Optional Title")
+    * ![Imagen Cinco](https://github.com/Mastrom10/TrabajosPracticos/blob/master/ImagenesReadme/imagen5.png "Optional Title")
 
 
 
